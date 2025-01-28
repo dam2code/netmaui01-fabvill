@@ -11,6 +11,7 @@
 
         private void OnCounterClicked(object sender, EventArgs e)
         {
+            //Hola
             count++;
 
             if (count == 1)

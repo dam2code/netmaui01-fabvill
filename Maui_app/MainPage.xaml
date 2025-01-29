@@ -4,16 +4,16 @@
              x:Class="Maui_app.MainPage">
 
     <VerticalStackLayout Spacing="15" Padding="20">
-        <Label Text = "Enter a Phoneword"
-               FontSize ="20"/>
-        <Entry x:Name = "PhoneNumberText"
-               Text = "1-555-NETMAUI" />
-        <Button x:Name = "TranslateButton"
-                Text = "Translate"
-                Clicked = "OnTranslate"/>
-        <Button x:Name = "CallButton"
-                Text = "Call"
-                IsEnabled = "False"
-                Clicked = "OnCall"/>
+        <Label Text="Enter a Phoneword"
+               FontSize="20" />
+        <Entry x:Name="PhoneNumberText"
+               Text="1-555-NETMAUI" />
+        <Button x:Name="TranslateButton"
+                Text="Translate"
+                Clicked="OnTranslate"/>
+        <Button x:Name="CallButton"
+                Text="Call"
+                IsEnabled="False"
+                Clicked="OnCall"/>
     </VerticalStackLayout>
 </ContentPage>

@@ -1,25 +1,26 @@
-﻿namespace MauiApp2
+﻿using Microsoft.Maui.Controls;
+using System.Diagnostics;
+
+namespace MauiApp2
 {
     public partial class MainPage : ContentPage
     {
-        int count = 0;
+        Button loginButton;
+        VerticalStackLayout layout;
 
         public MainPage()
         {
             InitializeComponent();
         }
 
+        private void LoginButton_Clicked(object sender, EventArgs e)
+        {
+            Debug.WriteLine("Login button clicked!");
+        }
+
         private void OnCounterClicked(object sender, EventArgs e)
         {
-            count++;
-
-            if (count == 1)
-                CounterBtn.Text = $"Clicked {count} time";
-            else
-                CounterBtn.Text = $"Clicked {count} times";
-
-            SemanticScreenReader.Announce(CounterBtn.Text);
+            Debug.WriteLine("Counter button clicked!");
         }
     }
-
 }

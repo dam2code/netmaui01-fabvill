@@ -3,11 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
-<<<<<<< HEAD
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauiApp3", "MauiApp3.csproj", "{207800BF-661C-4DC7-BEDB-A20E1A2CFB2E}"
-=======
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauiApp3", "MauiApp3.csproj", "{6B5EDA45-3841-4A02-BF4D-802D9ACE2E83}"
->>>>>>> parent of 9cf9bc4 (Nuevo proyecto para realizar los EJERCICIO3)
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MauiApp3", "MauiApp3.csproj", "{207800BF-661C-4DC7-BEDB-A20E1A2CFB2E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,30 +11,17 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-<<<<<<< HEAD
 		{207800BF-661C-4DC7-BEDB-A20E1A2CFB2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{207800BF-661C-4DC7-BEDB-A20E1A2CFB2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{207800BF-661C-4DC7-BEDB-A20E1A2CFB2E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
 		{207800BF-661C-4DC7-BEDB-A20E1A2CFB2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{207800BF-661C-4DC7-BEDB-A20E1A2CFB2E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{207800BF-661C-4DC7-BEDB-A20E1A2CFB2E}.Release|Any CPU.Deploy.0 = Release|Any CPU
-=======
-		{6B5EDA45-3841-4A02-BF4D-802D9ACE2E83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6B5EDA45-3841-4A02-BF4D-802D9ACE2E83}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6B5EDA45-3841-4A02-BF4D-802D9ACE2E83}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{6B5EDA45-3841-4A02-BF4D-802D9ACE2E83}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6B5EDA45-3841-4A02-BF4D-802D9ACE2E83}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6B5EDA45-3841-4A02-BF4D-802D9ACE2E83}.Release|Any CPU.Deploy.0 = Release|Any CPU
->>>>>>> parent of 9cf9bc4 (Nuevo proyecto para realizar los EJERCICIO3)
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-<<<<<<< HEAD
-		SolutionGuid = {E2ACA9B8-F2AE-4441-9A48-0A2E27C36136}
-=======
 		SolutionGuid = {73074C58-235A-45DD-9718-9404288B8F9D}
->>>>>>> parent of 9cf9bc4 (Nuevo proyecto para realizar los EJERCICIO3)
 	EndGlobalSection
 EndGlobal

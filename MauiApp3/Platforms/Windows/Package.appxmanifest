@@ -9,7 +9,11 @@
   <Identity Name="maui-package-name-placeholder" Publisher="CN=User Name" Version="0.0.0.0" />
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   <mp:PhoneIdentity PhoneProductId="33680EB4-DDCA-49D5-9120-E210311C79CC" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+=======
+  <mp:PhoneIdentity PhoneProductId="EDAE8229-2A92-44CD-87A5-38E6C5DD626A" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+>>>>>>> parent of 9cf9bc4 (Nuevo proyecto para realizar los EJERCICIO3)
 =======
   <mp:PhoneIdentity PhoneProductId="EDAE8229-2A92-44CD-87A5-38E6C5DD626A" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 >>>>>>> parent of 9cf9bc4 (Nuevo proyecto para realizar los EJERCICIO3)

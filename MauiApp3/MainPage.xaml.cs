@@ -2,24 +2,17 @@
 {
     public partial class MainPage : ContentPage
     {
-        int count = 0;
-
         public MainPage()
         {
             InitializeComponent();
-        }
 
-        private void OnCounterClicked(object sender, EventArgs e)
-        {
-            count++;
+            var a = new BoxView { Color = Colors.Silver, HeightRequest = 40 };
+            var b = new BoxView { Color = Colors.Blue, HeightRequest = 40 };
+            var c = new BoxView { Color = Colors.Gray, HeightRequest = 40 };
 
-            if (count == 1)
-                CounterBtn.Text = $"Clicked {count} time";
-            else
-                CounterBtn.Text = $"Clicked {count} times";
-
-            SemanticScreenReader.Announce(CounterBtn.Text);
+            stack.Children.Add(a);
+            stack.Children.Add(b);
+            stack.Children.Add(c);
         }
     }
-
 }

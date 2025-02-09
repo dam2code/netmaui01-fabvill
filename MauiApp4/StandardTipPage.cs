@@ -10,7 +10,6 @@ public partial class StandardTipPage : ContentPage
 {
     private Color colorNavy = Colors.Navy;
     private Color colorSilver = Colors.Silver;
-
     public StandardTipPage()
     {
         InitializeComponent();

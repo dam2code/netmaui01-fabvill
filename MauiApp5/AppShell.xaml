@@ -7,6 +7,7 @@
     Shell.FlyoutBehavior="Flyout"
     FlyoutIcon="moon.png">
 
+    <ShellContent Route="astronomicalbodydetails" ContentTemplate="{DataTemplate local:AstronomicalBodyPage}" />
     <!-- <TabBar>  -->
     <!-- <Tab Title="Moon Phase" Icon="moon.png"> -->
     <!--  <ShellContent ContentTemplate="{DataTemplate local:MoonPhasePage}" /> -->

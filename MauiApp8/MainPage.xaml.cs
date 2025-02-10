@@ -1,24 +1,23 @@
-﻿namespace MauiApp8
+﻿using System.Reflection;
+
+namespace MauiApp8
 {
     public partial class MainPage : ContentPage
     {
-        int count = 0;
-
         public MainPage()
         {
             InitializeComponent();
         }
 
-        private void OnCounterClicked(object sender, EventArgs e)
+        private async void btnRefresh_Clicked(object sender, EventArgs e)
         {
-            count++;
+            btnRefresh.IsEnabled = false;
+            actIsBusy.IsRunning = true;
 
-            if (count == 1)
-                CounterBtn.Text = $"Clicked {count} time";
-            else
-                CounterBtn.Text = $"Clicked {count} times";
+            BindingContext = await Services.WeatherServer.GetWeather(txtPostalCode.Text);
 
-            SemanticScreenReader.Announce(CounterBtn.Text);
+            btnRefresh.IsEnabled = true;
+            actIsBusy.IsRunning = false;
         }
     }
 
